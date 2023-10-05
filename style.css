@@ -1,18 +1,43 @@
 nav {
+    position:sticky;
+    display:flex;
     background-color: darkgray;
     font-size: 16px;
+    border-width: 2px;
+    border-color: green;
+    border-style: solid;
+    
 
 }
 
-.flex_container{
+.flex_container_rows{
+    position: absolute;
     display: flex;
+    flex-direction: row;
+    height:100%;
+    width:100%;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+}
+.flex_container_columns{
+    position: absolute;
+    display: flex;
+    flex-direction: columns;
+    height:100%;
+    width:100%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+
 }
 nav button{
         border: none;
         background-color: darkgray;
         text-align: center;
         text-decoration: none;
-        display: inline-block;
+        height: 100%;
 }
 nav button:hover{
     background-color: gray;
@@ -25,7 +50,13 @@ nav button:hover{
 
 }
 
-div {
-    border: 1px;
+.flex_container_rows div {
+    width: 20%;
+    border-style: solid;
+    border-width: 1px;
     border-color: red;
+}
+
+.vertical_content{
+    flex-grow: 1;
 }
