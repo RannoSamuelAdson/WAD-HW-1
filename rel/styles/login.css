@@ -1,0 +1,26 @@
+.loginrow {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: x-large;
+}
+
+.textarea-login {
+    display: flex;
+    width: 200px;
+    height: 40px;
+    padding-left: 10px;
+    margin: auto;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue; 
+    margin: auto; 
+    font-size: large; 
+    width: 100px;
+    height: 40px;
+}
+
