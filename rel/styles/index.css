@@ -21,6 +21,7 @@
     background-color: lightgray;
     padding-left: 1rem;
     padding-right: 1rem;
+    border-radius: 1rem;
 }
 
 .post .logo {
@@ -49,4 +50,3 @@
     width: 2rem;
     margin: .5rem;
 }
-
