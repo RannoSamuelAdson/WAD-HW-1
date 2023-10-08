@@ -1,0 +1,51 @@
+@media (max-width: 500px) {
+    #vertical_content{
+        min-width: 100%;
+    }
+
+  }
+
+.sidebar {
+    flex-grow: 1;
+    background-color: darkgray;
+}
+
+#vertical_content {
+    flex-grow: 2;
+    max-width: 60%;
+}
+
+.post {
+    flex-direction: column;
+    margin: 0.5rem;
+    background-color: lightgray;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.post .logo {
+    width: 2rem;
+    height: 2rem;
+    padding: 0.25rem;
+    margin-left: 0px;
+}
+
+.post_header {
+    display: flex;
+    flex-direction: row;
+}
+
+.post_header p:last-child {
+    margin-left: auto;
+}
+
+.post img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.interaction_button {
+    height: 2rem;
+    width: 2rem;
+    margin: .5rem;
+}
