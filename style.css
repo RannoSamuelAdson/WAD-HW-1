@@ -24,7 +24,11 @@ nav button:hover{
     margin-left: auto;
 
 }
-
+div button{
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    }
 div {
     border: 1px;
     border-color: red;

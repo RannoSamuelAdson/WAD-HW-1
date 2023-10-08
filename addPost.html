@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<style>
+    textarea {
+        width: 300px;
+        height: 150px;
+        font-size: 16px;
+        line-height: 1.5;
+        resize: none;
+        padding-top: 10px;
+        padding-left: 5px;
+      }
+    .flex-container {
+        display: flex;
+        align-self: center;
+        flex-direction: column; /* Elements inside should be arranged vertically */
+        justify-content: center; /* Center elements vertically */
+        height: 450px;
+        width: 400px;
+        margin: auto;
+        background-color: rgb(201, 201, 201);
+        border-radius: 15px;
+        top: calc(20% - 80px);
+        left: calc(50% - 200px);
+        position: absolute;
+    }
+    .row {
+        display: flex;
+        justify-content: space-between; /* Elements inside should be arranged horizontally with space in between */
+        align-items: start; 
+        width: 100%;
+        padding: 0px 5px; /* Reduce horizontal padding to 5px and keep 10px vertical padding */
+    }
+    .whi1 {
+     color: white;
+     border: gray;
+     font-size: larger;
+    }
+    .whi2{
+        color: white;
+        font-size: larger;
+        border: none;
+    }
+    .pad1{
+        padding-top: 10px;
+        padding-left: 45px;
+        font-size: x-large;
+    }
+    .pad2{
+        padding-top: 100px;
+        padding-left:125px;
+        font-size: x-large;
+    }
+    .pad3{
+        padding-left: 73px;
+        font-size: x-large;
+    }
+
+
+</style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <nav class = "flex_container">
+        <div class = "flex_container">
+            <button> Home</button>
+        </div>
+            <img id = "logo" src="rel/image/me.png" alt="Profile picture" >
+    </nav>
+    <div class = "flex-container">
+        <div class="pad1">
+            <div class = "row">
+                <td >Post text</td>
+                <textarea class="textarea" placeholder="textarea" style="font-size:larger"></textarea>
+                
+            </div>
+        </div>
+
+        <div class="row">  
+            <div class = pad1>
+            <td style="font-size: larger;">Select      </td>
+            
+            <button type="button" value="" style="background-color: grey" class = "whi1" border-width = "5px">Choose File</button>
+            </div>
+        </div>
+        <div class="row">  
+            <div class=pad3>
+                <td >file</td>
+            </div>
+        </div>
+
+        <div class="row">  
+            <div class = "pad2">
+            <button type="button" value="" style="background-color: darkblue;" class = "whi2">Create Post</button>       
+            </div>
+        </div>
+    </div>
+</body>
+</html>
