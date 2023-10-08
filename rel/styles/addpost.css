@@ -28,14 +28,17 @@ textarea {
     width: 90%;
     padding: 0px 5px; /* Reduce horizontal padding to 5px and keep 10px vertical padding */
 }
+head ~ p {
+    font-size: x-large;
+}
 .whi1 {
- color: white;
- border: gray;
  font-size: larger;
+ border: gray;
+ color: white;
 }
 .whi2{
-    color: white;
     font-size: larger;
+    color: white;
     border: none;
 }
 .pad1{
