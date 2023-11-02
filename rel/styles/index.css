@@ -14,7 +14,10 @@
     flex-grow: 7;
     max-width: 60%;
 }
+.post_content{
+    padding-bottom: 1rem;
 
+}
 .post {
     flex-direction: column;
     margin: 0.5rem;
