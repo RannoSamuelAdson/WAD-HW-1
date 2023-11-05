@@ -23,10 +23,10 @@ textarea {
 }
 
 
-.row {
+div.row {
     display: flex;
     justify-content: space-between; /* Elements inside should be arranged horizontally with space in between */
-    align-items: start; 
+    align-items: start;
     width: 90%;
     padding: 0px 5px; /* Reduce horizontal padding to 5px and keep 10px vertical padding */
 }

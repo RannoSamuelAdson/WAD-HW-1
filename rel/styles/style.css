@@ -42,27 +42,20 @@ nav button{
 }
 
 
-div.flex_profile {
-    position:absolute;
+.flex_profile {
+    position: absolute;
     right: 0;
-    top: 80px;
+    top: 87px;
     width: 15%;
     min-width: 130px;
-
-.flex_profile {
     display: flex;
-    width: 30%;
-    max-width: 160px;
-    min-width: 140px;
-    height: 15%;
-    min-height: 56px;
-    max-height: 75px;
-    margin-left: auto; /* Align to the right by setting margin-left to auto */
-    text-align: left; /* You can remove this line, as text-align: left is the default */
+    flex-direction: column; /* Display the members vertically */
+    margin-left: auto;
     font-size: 1rem;
     background-color: rgb(201, 201, 201);
     border-radius: 5px;
 }
+
 
 nav button:hover{
     background-color: gray;

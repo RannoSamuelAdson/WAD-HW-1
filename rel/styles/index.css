@@ -8,7 +8,7 @@
 .sidebar {
     flex-grow: 2;
     background-color: darkgray;
-    margin-top: 10px; /* Add 15 pixels of margin on top */S
+    margin-top: 10px; /* Add 15 pixels of margin on top */
 }
 
 #vertical_content {
