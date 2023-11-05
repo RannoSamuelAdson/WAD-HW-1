@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="rel/styles/style.css" />
     <link rel="stylesheet" href="rel/styles/index.css" />
     <script type="text/javascript" src="rel/js/createPost.js"></script>
+    <script type="text/javascript" src="rel/js/profile.js"></script>
 
     <title>Home</title>
   </head>
@@ -19,8 +20,10 @@
           <p>|</p>
           <button><a href="addPost.html">add Post</a></button>
         </div>
-        <img class="logo" src="rel/image/me.png" alt="Profile picture" />
+        <img onclick="displayProfile()" class="logo" src="rel/image/me.png" alt="Profile picture" />
       </nav>
+      <div id="profileSpot">
+      </div>
       <div class="flex_container_row">
         <div class="sidebar"></div>
         <div id="vertical_content"></div>
