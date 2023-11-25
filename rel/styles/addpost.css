@@ -19,7 +19,6 @@ textarea {
     border-radius: 15px;
     top: calc(20% + 35px);
     left: calc(50% - 200px);
-    position: absolute;
 }
 .row {
     display: flex;

@@ -6,15 +6,18 @@
   }
 
 .sidebar {
-    flex-grow: 1;
+    flex-grow: 2;
     background-color: darkgray;
 }
 
 #vertical_content {
-    flex-grow: 2;
+    flex-grow: 7;
     max-width: 60%;
 }
+.post_content{
+    padding-bottom: 1rem;
 
+}
 .post {
     flex-direction: column;
     margin: 0.5rem;
