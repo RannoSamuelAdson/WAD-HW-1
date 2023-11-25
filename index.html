@@ -1,23 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<<<<<<< HEAD
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="rel/styles/style.css">
-    <link rel="stylesheet" href="rel/styles/index.css">
-    <script src="rel/js/index.js"></script>
-=======
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="rel/styles/style.css" />
     <link rel="stylesheet" href="rel/styles/index.css" />
+    <link rel="stylesheet" href="rel/styles/addPost.css" />
     <script type="text/javascript" src="rel/js/createPost.js"></script>
->>>>>>> 5eb74222fe36788541aa724ef4f7e165ee8aa8a1
+    <script type="text/javascript" src="rel/js/profile.js"></script>
 
     <title>Home</title>
   </head>
@@ -30,8 +21,10 @@
           <p>|</p>
           <button><a href="addPost.html">add Post</a></button>
         </div>
-        <img class="logo" src="rel/image/me.png" alt="Profile picture" />
+        <img onclick="displayProfile()" class="logo" src="rel/image/me.png" alt="Profile picture" />
       </nav>
+      <div id="profileSpot">
+      </div>
       <div class="flex_container_row">
         <div class="sidebar"></div>
         <div id="vertical_content"></div>
@@ -41,13 +34,5 @@
         <p>footer</p>
       </footer>
     </div>
-<<<<<<< HEAD
-
-</body>
-
-
-</html>
-=======
   </body>
 </html>
->>>>>>> 5eb74222fe36788541aa724ef4f7e165ee8aa8a1
